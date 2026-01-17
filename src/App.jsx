@@ -1,6 +1,7 @@
 import './App.css'
 import { gsap } from "gsap";
 import { useGSAP } from "@gsap/react";
+import Navbar from './components/Navbar';
 gsap.registerPlugin(useGSAP);
 
 
@@ -10,7 +11,9 @@ function App() {
 
   return (
     <>
-      HII
+      <main>
+        <Navbar/>
+      </main>
     </>
   )
 }
