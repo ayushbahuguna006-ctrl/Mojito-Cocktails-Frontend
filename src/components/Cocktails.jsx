@@ -1,4 +1,4 @@
-import React from 'react'
+import React, { useRef } from 'react'
 import { cocktailLists } from '../../constants'
 import { mockTailLists } from '../../constants'
 import { useGSAP } from '@gsap/react'
@@ -8,7 +8,49 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const Cocktails = () => {
+  
     useGSAP(()=>{
+         gsap.fromTo(
+    ".tails .cocktail-line",
+    {
+      y: 30,
+      opacity: 0,
+    },
+    {
+      y: 0,
+      opacity: 1,
+      duration: 0.8,
+      stagger: 0.15,
+      ease: "power2.out",
+      scrollTrigger: {
+        trigger: ".tails",
+        start: "top 90%",
+        once:true
+        
+      },
+    }
+  )
+
+
+  gsap.fromTo(
+    ".touch .cocktail-line",
+    {
+      y: 30,
+      opacity: 0,
+    },
+    {
+      y: 0,
+      opacity: 1,
+      duration: 1,
+      stagger: 0.15,
+      ease: "power2.out",
+      scrollTrigger: {
+        trigger: ".touch",
+        start: "top 85%",
+        once:true
+      },
+    }
+  )
         const two=gsap.timeline({
         scrollTrigger:{
             trigger:'.touch',
@@ -17,6 +59,7 @@ const Cocktails = () => {
             scrub:true
         }
 })
+
       two.fromTo(
   '.leaf1',
   { x: -100,
@@ -30,11 +73,11 @@ const Cocktails = () => {
     )})
   return (
     <>
-      <div className='min-h-screen bg-[url("/noise.png")] flex flex-col md:flex-row  justify-evenly items-center'>
-         <div className='p-4'>
+      <div className='tails  min-h-screen bg-[url("/noise.png")] flex flex-col md:flex-row  justify-evenly items-center' >
+         <div className='p-4'  >
               <p className='text-white'>Most Popular Cocktails</p><br/>
               {cocktailLists.map(({name,detail,country,price})=>(
-                     <div className='flex gap-10 items-center'>
+                     <div className='flex gap-10 items-center cocktail-line'>
                         <div><p className='text-yellow-200 font-bold text-xl'>{name}</p>
                      <p className='text-white'>{country} | {detail}</p></div>
                      <div className='text-white'>{`-${price}`}</div>
@@ -49,11 +92,11 @@ const Cocktails = () => {
               ))}
 
          </div>
-         <div className='touch p-4'>
+         <div className='touch p-4' >
                   <div>
               <p className='text-white'>Most Loved Cocktails</p><br/>
               {mockTailLists.map(({name,detail,country,price})=>(
-                     <div className='flex gap-10 items-center'>
+                     <div className='flex gap-10 cocktail-line items-center'>
                         <div><p className='text-yellow-200 font-bold text-xl'>{name}</p>
                      <p className='text-white'>{country} | {detail}</p></div>
                      <div className='text-white'>{`-${price}`}</div>
