@@ -40,7 +40,7 @@ const two=gsap.timeline({
         scrollTrigger:{
             trigger:'.drink2',
             start:'top 99%',
-            end:'top 70%',
+            end:'top 30%',
             scrub:true
         }
 })
@@ -59,14 +59,18 @@ two.to('.drink2',{
     });
     one.to('.leftleaf',{
         y:-200,
+        rotate:30,
+        x:-50
        
     },0)
      one.to('.drink2',{
-        y:200,
+        y:100,
         
     },0)
     one.to('.rightleaf',{
-        y:200,
+        y:300,
+        rotate:-5,
+        x:5
         
     },0)
 
@@ -85,7 +89,7 @@ two.to('.drink2',{
                             <h1 className='text-yellow-200 text-4xl font-bold mt-3 md:absolute md:left-[10vh]   md:block md:top-[45vh] absolute left-[20vh] top-[30vh] hidden'>Sip The Spirit </h1>
                             <h1 className='text-yellow-200 text-4xl font-bold mt-1 md:absolute md:left-[10vh]   md:block md:top-[51vh]  left-[23vh] hidden'>Of Summer </h1></div>
                             <div className='subtitle text-white  md:absolute md:top-[55vh] md:right-[10vh] p-2 md:block'><div>Every cocktail on our menu,</div> is a blend of premium ingredients, creative flair, <div>and timeless recipes — designed to delight your senses
-                               <div className='mt-5'><a href="#cocktails" className='text-red-500 hover:bg-blue-500 hover:rounded-xl hover:p-2 hover:text-black hover:font-bold transition-all duration-75 ease-in'>View Cocktails</a><div className='dot bg-red-200  h-0.5 w-0.5'></div><div><img src="/drink2.png" className='drink2' alt="drink" /></div></div> </div> </div>
+                               <div className='mt-5'><a href="#cocktails" className='text-red-500 hover:bg-blue-500 hover:rounded-xl hover:p-2 hover:text-black hover:font-bold transition-all duration-75 ease-in'>View Cocktails</a><div className='dot bg-red-200  h-0.5 w-0.5'></div><div><img src="/drink2.png" className='drink2 md:absolute md:right-[70vh] md:top-[1vh]' alt="drink" /></div></div> </div> </div>
                         </div> 
                     </div>
                  </div>
