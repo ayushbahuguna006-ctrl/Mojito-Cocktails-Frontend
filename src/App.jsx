@@ -1,8 +1,7 @@
 import './App.css'
-import { gsap } from "gsap";
-import { useGSAP } from "@gsap/react";
 import Navbar from './components/Navbar';
-gsap.registerPlugin(useGSAP);
+import Hero from './components/Hero';
+
 
 
 
@@ -13,6 +12,7 @@ function App() {
     <>
       <main>
         <Navbar/>
+        <Hero/>
       </main>
     </>
   )

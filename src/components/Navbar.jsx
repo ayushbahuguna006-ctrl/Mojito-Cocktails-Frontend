@@ -1,20 +1,45 @@
 import React from 'react'
 import { navLinks } from '../../constants'
+import { gsap } from "gsap";
+import { useGSAP } from "@gsap/react";
+gsap.registerPlugin(useGSAP);
 
 const Navbar = () => {
-  return (
-    <nav>
-        <div className='min-h-screen bg-black'> 
-            <a href="#home" className='flex justify-center gap-2 items-center p-3 text-white'>
-               <img src="./src/assets/logo.png" alt="Logo" />
-               <p className='text-xl font-semibold'>Velvet Pour</p> </a>
-               <ul className='flex text-white justify-center gap-5'>
-                {navLinks.map((link)=>(<li key={link.id}><a href={`#${link.id}`}>{link.title}</a></li>))}
-               </ul>
+  useGSAP(()=>{
+    const navTween=gsap.timeline({
+      scrollTrigger:{
+        trigger:'nav',
+        start:'bottom top'
+      }
+    })
+    navTween.fromTo('nav',{backgroundColor:'transparent'},{
+    backgroundColor:'#00000050',
+    backgroundFilter:'blur(10px)',
+    duration:1,
+    ease:'power1.inOut'
 
-           
+    })
+
+
+
+  })
+  return (
+    <div className='bg-black min-h-screen'>
+     
+     <nav className='flex flex-wrap justify-around'>
+        <div className='flex items-center justify-center gap-1 p-2'>
+          <img src="./src/assets/logo.png" alt="Mojito" />
+          <p className='font-bold text-white'>VELVET POUR</p>
         </div>
-    </nav>
+        <div className='flex gap-6 items-center'>
+          {navLinks.map((link)=>(<li className='list-none text-white' key={`#${link.id}`}>{link.title}</li>))}
+        </div>
+
+
+
+      </nav>
+
+    </div>
   )
 }
 
