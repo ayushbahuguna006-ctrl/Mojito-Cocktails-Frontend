@@ -28,7 +28,7 @@ const Hero = () => {
     const one=gsap.timeline({
         scrollTrigger:{
             trigger:'.heromain',
-            start:'top top',
+            start:'top 10%',
             end:'bottom top',
             scrub:true,
         }
@@ -51,11 +51,11 @@ const Hero = () => {
                  <div>
                     <div>
                         <div>
-                            <div className='subtitle'><h3 className='text-white text-sm font-light absolute top-[35vh] left-[11vh] hidden md:block'>Cool.Crisp,Classic.</h3>
-                            <h1 className='text-yellow-200 text-4xl font-bold mt-3 absolute left-[10vh]  hidden md:block top-[40vh]'>Sip The Spirit </h1>
-                            <h1 className='text-yellow-200 text-4xl font-bold mt-1 absolute left-[10vh]  hidden md:block top-[46vh]'>Of Summer </h1></div>
-                            <div className='subtitle text-white flex flex-col absolute top-[55vh] right-[10vh] hidden md:block'><div>Every cocktail on our menu,</div> is a blend of premium ingredients, creative flair, <div>and timeless recipes — designed to delight your senses
-                               <div className='mt-5'><a href="#cocktails">View Cocktails</a></div> </div> </div>
+                            <div className='subtitle'><h3 className='text-yellow-200 text-3xl font-black md:absolute md:top-[40vh] md:font-light md:text-sm md:text-white md:left-[11vh] absolute top-[55vh] left-[10vh] md:block hidden'>Cool  Crisp    Classic</h3>
+                            <h1 className='text-yellow-200 text-4xl font-bold mt-3 md:absolute md:left-[10vh]   md:block md:top-[45vh] absolute left-[20vh] top-[30vh] hidden'>Sip The Spirit </h1>
+                            <h1 className='text-yellow-200 text-4xl font-bold mt-1 md:absolute md:left-[10vh]   md:block md:top-[51vh] absolute top-[7vh] top-[39vh] left-[23vh] hidden'>Of Summer </h1></div>
+                            <div className='subtitle text-white  md:absolute md:top-[55vh] md:right-[10vh] p-2 md:block'><div>Every cocktail on our menu,</div> is a blend of premium ingredients, creative flair, <div>and timeless recipes — designed to delight your senses
+                               <div className='mt-5'><a href="#cocktails" className='text-red-500 hover:bg-blue-500 hover:rounded-xl hover:p-2 hover:text-black hover:font-bold transition-all ease-in'>View Cocktails</a><div className='bg-red-200 rounded-full h-2 w-2'></div></div> </div> </div>
                         </div> 
                     </div>
                  </div>
