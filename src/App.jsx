@@ -15,7 +15,9 @@ function App() {
       <main className='bg-black'>
         <Navbar/>
         <Hero/>
+        <div className='min-h-screen'></div>
       </main>
+
     </>
   )
 }
