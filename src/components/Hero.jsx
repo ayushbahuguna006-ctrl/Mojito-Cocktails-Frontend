@@ -40,7 +40,7 @@ const two=gsap.timeline({
         scrollTrigger:{
             trigger:'.drink2',
             start:'top 99%',
-            end:'top 30%',
+            end:'top 10%',
             scrub:true
         }
 })
