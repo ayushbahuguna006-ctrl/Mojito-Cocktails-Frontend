@@ -68,7 +68,7 @@ two.to('.drink2',{
         
     },0)
     one.to('.rightleaf',{
-        y:300,
+        y:800,
         rotate:-5,
         x:5
         
