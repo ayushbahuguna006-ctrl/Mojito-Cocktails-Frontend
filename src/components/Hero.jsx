@@ -39,7 +39,7 @@ const Hero = () => {
 const two=gsap.timeline({
         scrollTrigger:{
             trigger:'.drink2',
-            start:'top 99%',
+            start:'top 89%',
             end:'top 0%',
             scrub:true
         }
@@ -68,7 +68,7 @@ two.to('.drink2',{
         
     },0)
     one.to('.rightleaf',{
-        y:800,
+        y:600,
         rotate:-5,
         x:5
         
