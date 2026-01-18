@@ -23,14 +23,14 @@ const Cocktails = () => {
     y:300
     },
   {
-    x: -60,
+    x: -90,
     y:0,
     ease: 'power1.inOut'
   },
     )})
   return (
     <>
-      <div className='min-h-screen bg-[url("/noise.png")] flex flex-col md:flex-row  justify-evenly'>
+      <div className='min-h-screen bg-[url("/noise.png")] flex flex-col md:flex-row  justify-evenly items-center'>
          <div className='p-4'>
               <p className='text-white'>Most Popular Cocktails</p><br/>
               {cocktailLists.map(({name,detail,country,price})=>(
@@ -49,7 +49,7 @@ const Cocktails = () => {
               ))}
 
          </div>
-         <div className='relative touch p-4'>
+         <div className='touch p-4'>
                   <div>
               <p className='text-white'>Most Loved Cocktails</p><br/>
               {mockTailLists.map(({name,detail,country,price})=>(
@@ -66,7 +66,7 @@ const Cocktails = () => {
 
 
               ))}
-       <div><img src="/cocktail-left-leaf.png" className='leaf1 h-[30vh]  absolute bottom-0 left-0' alt="" /></div>
+       <div><img src="/cocktail-left-leaf.png" className='leaf1 h-[30vh]  absolute  left-0' alt="" /></div>
          </div>
          </div>
       
