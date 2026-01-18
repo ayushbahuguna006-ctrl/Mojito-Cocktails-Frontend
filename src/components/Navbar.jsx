@@ -28,7 +28,7 @@ const Navbar = () => {
      
      <nav className='flex flex-wrap justify-around'>
         <div className='flex items-center justify-center gap-1 p-2'>
-          <img src="./public/logo.png" alt="Mojito" />
+          <img src="/logo.png" alt="Mojito" />
           <p className='font-bold text-white'>VELVET POUR</p>
         </div>
         <div className='flex gap-6 items-center'>
