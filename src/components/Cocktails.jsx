@@ -20,11 +20,11 @@ const Cocktails = () => {
       two.fromTo(
   '.leaf1',
   { x: -100,
-    y:300
+    y:100
     },
   {
     x: -90,
-    y:0,
+    y:-200,
     ease: 'power1.inOut'
   },
     )})
