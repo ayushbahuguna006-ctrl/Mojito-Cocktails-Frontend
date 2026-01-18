@@ -17,6 +17,7 @@ function App() {
         <Navbar/>
         <Hero/>
         <Cocktails/>
+        <div className='min-h-screen bg-black'></div>
       </main>
 
     </>
