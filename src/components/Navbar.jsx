@@ -32,7 +32,7 @@ const Navbar = () => {
           <p className='font-bold text-white'>VELVET POUR</p>
         </div>
         <div className='flex gap-6 items-center'>
-          {navLinks.map((link)=>(<li className='list-none text-white' key={`#${link.id}`}>{link.title}</li>))}
+          {navLinks.map((link)=>(<a className='list-none text-white' href={`#${link.id}`}>{link.title}</a>))}
         </div>
 
 
