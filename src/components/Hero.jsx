@@ -59,7 +59,7 @@ two.to('.drink2',{
     });
     one.to('.leftleaf',{
         y:-200,
-        rotate:30,
+        rotate:5,
         x:-50
        
     },0)
