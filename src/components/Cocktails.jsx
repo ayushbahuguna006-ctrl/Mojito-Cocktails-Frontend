@@ -11,17 +11,17 @@ const Cocktails = () => {
   
     useGSAP(()=>{
          gsap.fromTo(
-    ".tails .cocktail-line",
+    ".tails1",
     {
-      // y: 30,
+      y: 30,
       opacity: 0,
     },
     {
-      // y: 0,
+      y: 0,
       opacity: 1,
-      duration: 1.5,
-      delay:0.2,
-      stagger: 0.10,
+      duration: 1,
+      delay:0.3,
+      stagger: 0.07,
       ease: "power1.in",
       scrollTrigger: {
         trigger: ".tails",
@@ -34,17 +34,17 @@ const Cocktails = () => {
 
 
   gsap.fromTo(
-    ".touch .cocktail-line",
+    ".touch1",
     {
-      // y: 10,
+      y: 10,
       opacity: 0,
     },
     {
-      // y: 0,
+      y: 0,
       opacity: 1,
-      duration: 1.9,
-      delay:0.5,
-      stagger: 0.01,
+      duration: 1,
+      delay:0.3,
+      stagger: 0.05,
       ease: "power1.in",
       scrollTrigger: {
         trigger: ".touch",
@@ -79,7 +79,7 @@ const Cocktails = () => {
          <div className='p-4'  >
               <p className='text-white'>Most Popular Cocktails</p><br/>
               {cocktailLists.map(({name,detail,country,price})=>(
-                     <div className='flex gap-10 items-center cocktail-line'>
+                     <div className='flex gap-10 items-center tails1'>
                         <div><p className='text-yellow-200 font-bold text-xl'>{name}</p>
                      <p className='text-white'>{country} | {detail}</p></div>
                      <div className='text-white'>{`-${price}`}</div>
@@ -98,7 +98,7 @@ const Cocktails = () => {
                   <div>
               <p className='text-white'>Most Loved Cocktails</p><br/>
               {mockTailLists.map(({name,detail,country,price})=>(
-                     <div className='flex gap-10 cocktail-line items-center'>
+                     <div className='flex gap-10 touch1 items-center'>
                         <div><p className='text-yellow-200 font-bold text-xl'>{name}</p>
                      <p className='text-white'>{country} | {detail}</p></div>
                      <div className='text-white'>{`-${price}`}</div>
