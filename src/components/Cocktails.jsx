@@ -19,10 +19,10 @@ const Cocktails = () => {
     {
       y: 0,
       opacity: 1,
-      duration: 0.8,
-      delay:0.5,
-      stagger: 0.15,
-      ease: "power2.out",
+      duration: 1,
+      delay:0.3,
+      stagger: 0.05,
+      ease: "power1.in",
       scrollTrigger: {
         trigger: ".tails",
         start: "top 90%",
@@ -36,15 +36,15 @@ const Cocktails = () => {
   gsap.fromTo(
     ".touch .cocktail-line",
     {
-      y: 30,
+      y: 10,
       opacity: 0,
     },
     {
       y: 0,
       opacity: 1,
       duration: 1.5,
-      stagger: 0.15,
-      ease: "power2.out",
+      stagger: 0.01,
+      ease: "power1.in",
       scrollTrigger: {
         trigger: ".touch",
         start: "top 85%",
