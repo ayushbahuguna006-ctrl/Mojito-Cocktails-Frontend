@@ -19,7 +19,7 @@ const Cocktails = () => {
     {
       y: 0,
       opacity: 1,
-      duration: 1,
+      duration: 0.5,
       delay:0.3,
       stagger: 0.07,
       ease: "power1.in",
@@ -42,7 +42,7 @@ const Cocktails = () => {
     {
       y: 0,
       opacity: 1,
-      duration: 1,
+      duration: 0.5,
       delay:0.3,
       stagger: 0.05,
       ease: "power1.in",

@@ -11,14 +11,18 @@ const About = () => {
           <p>Matter-From Muddle</p>
           <p>to Garnish</p></div>
         </div>
-        <div className='text-white p-10 flex flex-col  justify-center  text-sm'>
+        <div className='text-white p-10 flex flex-col  justify-center mt-3  text-sm'>
               <p>Every cocktail we serve is a reflection of our </p>
               <p>obsession with detail — from the first muddle to the</p>
               <p>final garnish. That care is what turns a simple drink</p>
               <p>nto something truly memorable.</p>
               <div className='flex justify-evenly w-1/2 pt-4'><p className='text-yellow-500 font-bold text-2xl'>4.5</p><p className='pt-2'> / </p><p className='pt-2.5'>5</p></div>
-              <p className=''>More than 12000+ customers</p>
+              <div><p className='text-sm font-light'>More than 12000+ customers</p><div className='bg-stone-400 mt-5 p-4 rounded-xl w-1/2 h-5'></div></div>
         </div>
+      </div>
+      <div>
+        <img src="" alt="" />
+        <img src="" alt="" />
       </div>
          
     </div>
