@@ -13,14 +13,14 @@ const Cocktails = () => {
          gsap.fromTo(
     ".tails .cocktail-line",
     {
-      y: 30,
+      // y: 30,
       opacity: 0,
     },
     {
-      y: 0,
+      // y: 0,
       opacity: 1,
-      duration: 1,
-      delay:0.3,
+      duration: 0.7,
+      delay:0.5,
       stagger: 0.05,
       ease: "power1.in",
       scrollTrigger: {
@@ -36,13 +36,14 @@ const Cocktails = () => {
   gsap.fromTo(
     ".touch .cocktail-line",
     {
-      y: 10,
+      // y: 10,
       opacity: 0,
     },
     {
-      y: 0,
+      // y: 0,
       opacity: 1,
-      duration: 1.5,
+      duration: 0.7,
+      delay:0.5,
       stagger: 0.01,
       ease: "power1.in",
       scrollTrigger: {
