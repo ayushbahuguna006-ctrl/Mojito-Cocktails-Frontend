@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import './index.css'
 import Cocktails from './components/Cocktails';
 import About from './components/About';
-import Leftleaf from './components/Leftleaf';
+import Rightleaf from './components/Rightleaf';
 
 
 
@@ -17,7 +17,7 @@ function App() {
       <main className='bg-black'>
         <Navbar/>
         <Hero/>
-        <Leftleaf/>
+        <Rightleaf/>
         <Cocktails/>
         <About/>
       </main>

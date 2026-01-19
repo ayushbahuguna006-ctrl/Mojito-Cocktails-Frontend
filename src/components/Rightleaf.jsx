@@ -1,11 +1,10 @@
-import { useGSAP } from '@gsap/react'
 import React from 'react'
 import { ScrollTrigger } from 'gsap/ScrollTrigger'
 gsap.registerPlugin(ScrollTrigger)
 import { gsap } from 'gsap'
+import { useGSAP } from '@gsap/react'
 
-
-const Leftleaf = () => {
+const Rightleaf = () => {
     useGSAP(()=>{
          const one=gsap.timeline({
         scrollTrigger:{
@@ -23,9 +22,9 @@ const Leftleaf = () => {
     })
   return (
     <div>
-       <div><img src="/hero-right-leaf.png" className='rightleaf absolute right-0 h-[20vh] top-80' alt="" /></div>
+       <img src="/hero-right-leaf.png" className='rightleaf absolute right-0 h-[20vh] top-80' alt="" />
     </div>
   )
 }
 
-export default Leftleaf
+export default Rightleaf

@@ -17,7 +17,7 @@ const About = () => {
               <p>final garnish. That care is what turns a simple drink</p>
               <p>nto something truly memorable.</p>
               <div className='flex justify-evenly w-1/2 pt-4'><p className='text-yellow-500 font-bold text-2xl'>4.5</p><p className='pt-2'> / </p><p className='pt-2.5'>5</p></div>
-              <div><p className='text-sm font-light'>More than 12000+ customers</p><div className='bg-stone-400 mt-5 p-4 rounded-xl w-1/2 h-5'></div></div>
+              <div><p className='text-sm font-light'>More than 12000+ customers</p><div className='bg-stone-400 mt-5 p-5 rounded-xl w-full flex justify-center  items-center md:w-1/2 h-5'><img src="/profile1.png" className='h-7' alt="" /><img src="/profile2.png" className='h-7' alt="" /><img src="/profile3.png" alt="" className='h-7' /><img src="/profile4.png" className='h-7' alt="" /></div></div>
         </div>
       </div>
       <div>
