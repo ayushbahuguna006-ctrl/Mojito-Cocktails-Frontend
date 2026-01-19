@@ -83,10 +83,10 @@ two.to('.drink2',{
                  <div>
                     <div>
                         <div>
-                            <div className='subtitle'><h3 className=' text-yellow-200 text-3xl font-black md:absolute md:top-[40vh] md:font-light md:text-sm md:text-white md:left-[11vh] absolute top-[55vh] left-[10vh] md:block hidden'>Cool  Crisp    Classic</h3>
-                            <h1 className='text-yellow-200 text-4xl font-bold mt-3 md:absolute md:left-[10vh]   md:block md:top-[45vh] absolute left-[20vh] top-[30vh] hidden'>Sip The Spirit </h1>
-                            <h1 className='text-yellow-200 text-4xl font-bold mt-1 md:absolute md:left-[10vh]   md:block md:top-[51vh]  left-[23vh] hidden'>Of Summer </h1></div>
-                            <div className='subtitle text-white  md:absolute md:top-[55vh] md:right-[10vh] p-2 md:block'><div>Every cocktail on our menu,</div> is a blend of premium ingredients, creative flair, <div>and timeless recipes — designed to delight your senses
+                            <div className='subtitle'><h3 className=' text-yellow-200 text-3xl font-black md:absolute md:top-[40vh] md:font-light md:text-sm md:text-white md:left-[31vh] absolute top-[55vh] left-[10vh] md:block hidden'>Cool  Crisp    Classic</h3>
+                            <h1 className='text-yellow-200 text-4xl font-bold mt-3 md:absolute md:left-[30vh]   md:block md:top-[45vh] absolute left-[20vh] top-[30vh] hidden'>Sip The Spirit </h1>
+                            <h1 className='text-yellow-200 text-4xl font-bold mt-1 md:absolute md:left-[30vh]   md:block md:top-[51vh]  left-[23vh] hidden'>Of Summer </h1></div>
+                            <div className='subtitle text-white  md:absolute md:top-[55vh] md:right-[20vh] p-2 md:block'><div>Every cocktail on our menu,</div> is a blend of premium ingredients, creative flair, <div>and timeless recipes — designed to delight your senses
                                <div className='mt-5'><a href="#cocktails" className=' hover:bg-black hover:rounded-xl bg-white text-black p-2 rounded-xl hover:p-2  hover:text-red-400 hover:font-bold transition-all duration-100 ease-in'>View Cocktails</a><div><img src="/drink2.png" className='drink2 md:absolute md:right-[70vh] md:top-[1vh]' alt="drink" /></div></div> </div> </div>
                         </div> 
                     </div>

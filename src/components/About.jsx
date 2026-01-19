@@ -5,7 +5,7 @@ const About = () => {
     <div className='bg-[url("/noise.png")] min-h-screen overflow-hidden'>
       <div className='flex  justify-evenly items-center'>
         <div className='p-4'>
-          <button className='text-black rounded-4xl px-3 text-sm p-2 bg-white '>Best Cocktails</button>
+          <a href='#cocktails' className='text-black rounded-4xl px-3 text-sm p-2 bg-white cursor-pointer hover:text-red-500 '>Best Cocktails</a>
              <div className='text-white  text-4xl font-black mt-3'><p>Where every Detail </p>
 
           <p>Matter-From Muddle</p>
@@ -19,10 +19,10 @@ const About = () => {
               <div className='flex justify-evenly w-1/2 pt-4'><p className='text-yellow-500 font-bold text-2xl'>4.5</p><p className='pt-2'> / </p><p className='pt-2.5'>5</p></div>
               <div><p className='text-sm font-light'>More than 12000+ customers</p><div className='bg-stone-400 mt-5 p-5 rounded-xl w-full flex justify-center  items-center md:w-1/2 h-5'><img src="/profile1.png" className='h-7' alt="" /><img src="/profile2.png" className='h-7' alt="" /><img src="/profile3.png" alt="" className='h-7' /><img src="/profile4.png" className='h-7' alt="" /></div></div>
         </div>
-      </div>
-      <div>
-        <img src="" alt="" />
-        <img src="" alt="" />
+      </div><br/>
+      <div className='flex flex-col justify-center items-center md:flex-row md:justify-evenly md:flex-wrap'>
+        <img src="/abt1.png" className='h-[50%] md:mt-9 md:h-100 md:w-100 w-[50%]' alt="" />
+        <img src="/abt5.png" className='h-[50%] w-[50%] md:h-100 md:w-100 mt-5 md:mt-10 rounded-xl' alt="" />
       </div>
          
     </div>
