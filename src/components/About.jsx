@@ -26,7 +26,7 @@ const About = () => {
     stagger: 0.08,
     duration: 1,
     ease: "power3.out",
-    delay:0.5,
+    delay:0.2,
     scrollTrigger: {
       trigger: ".img3",
       start: "top 50%",
