@@ -21,7 +21,7 @@ const Cocktails = () => {
       opacity: 1,
       duration: 1.5,
       delay:0.2,
-      stagger: 0.05,
+      stagger: 0.03,
       ease: "power1.in",
       scrollTrigger: {
         trigger: ".tails",
