@@ -48,7 +48,7 @@ const Cocktails = () => {
       ease: "power1.in",
       scrollTrigger: {
         trigger: ".touch",
-        start: "top 85%",
+        start: "top 95%",
         once:true
       },
     }
