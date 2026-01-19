@@ -3,6 +3,7 @@ import Navbar from './components/Navbar';
 import Hero from './components/Hero';
 import './index.css'
 import Cocktails from './components/Cocktails';
+import About from './components/About';
 
 
 
@@ -17,7 +18,7 @@ function App() {
         <Navbar/>
         <Hero/>
         <Cocktails/>
-        <div className='min-h-screen bg-black'></div>
+        <About/>
       </main>
 
     </>
