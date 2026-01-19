@@ -42,8 +42,8 @@ const Cocktails = () => {
     {
       // y: 0,
       opacity: 1,
-      duration: 1.7,
-      delay:0.2,
+      duration: 1.9,
+      delay:0.5,
       stagger: 0.01,
       ease: "power1.in",
       scrollTrigger: {
