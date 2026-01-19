@@ -69,8 +69,7 @@ two.to('.drink2',{
     },0)
     one.to('.rightleaf',{
         y:600,
-        rotate:-5,
-        x:5
+        
         
     },0)
 
@@ -81,7 +80,6 @@ two.to('.drink2',{
       <section className='heromain overflow-y-hidden overflow-x-hidden relative bg-[url("/noise.png")]  size-full min-h-screen'>
                 <h1 className='hero text-center p-7 font-black text-white text-6xl'>MOJITO</h1>
                 <img src="/hero-left-leaf.png" className='leftleaf absolute bottom-0 left-0 h-[30vh]' alt="" />
-                 <img src="/hero-right-leaf.png" className='rightleaf absolute right-0 h-[20vh] top-80' alt="" />
                  <div>
                     <div>
                         <div>

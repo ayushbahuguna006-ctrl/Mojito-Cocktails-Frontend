@@ -17,6 +17,7 @@ function App() {
       <main className='bg-black'>
         <Navbar/>
         <Hero/>
+        <div><img src="/hero-right-leaf.png" className='rightleaf absolute right-0 h-[20vh] top-80' alt="" /></div>
         <Cocktails/>
         <About/>
       </main>
