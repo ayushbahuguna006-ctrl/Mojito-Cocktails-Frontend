@@ -4,7 +4,7 @@ import Hero from './components/Hero';
 import './index.css'
 import Cocktails from './components/Cocktails';
 import About from './components/About';
-
+import Leftleaf from './components/Leftleaf';
 
 
 
@@ -17,7 +17,7 @@ function App() {
       <main className='bg-black'>
         <Navbar/>
         <Hero/>
-        <div><img src="/hero-right-leaf.png" className='rightleaf absolute right-0 h-[20vh] top-80' alt="" /></div>
+        <Leftleaf/>
         <Cocktails/>
         <About/>
       </main>
