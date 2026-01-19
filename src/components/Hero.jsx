@@ -39,7 +39,7 @@ const Hero = () => {
 const two=gsap.timeline({
         scrollTrigger:{
             trigger:'.drink2',
-            start:'top 89%',
+            start:'top 50%',
             end:'top 0%',
             scrub:true
         }
