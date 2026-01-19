@@ -18,6 +18,7 @@ const About = () => {
     scrollTrigger: {
       trigger: ".sun",
       start: "top 50%",
+      scrub:true
     },
   });
    gsap.from(".img3 img", {
@@ -30,6 +31,7 @@ const About = () => {
     scrollTrigger: {
       trigger: ".this",
       start: "top 99%",
+      
     },
   });
 
@@ -43,6 +45,7 @@ const About = () => {
     scrollTrigger: {
       trigger: ".moon",
       start: "top 80%",
+      scrub:true
     },
   });
 });
