@@ -20,6 +20,7 @@ const Cocktails = () => {
       y: 0,
       opacity: 1,
       duration: 0.8,
+      delay:0.5,
       stagger: 0.15,
       ease: "power2.out",
       scrollTrigger: {
@@ -41,7 +42,7 @@ const Cocktails = () => {
     {
       y: 0,
       opacity: 1,
-      duration: 1,
+      duration: 1.5,
       stagger: 0.15,
       ease: "power2.out",
       scrollTrigger: {
