@@ -16,7 +16,7 @@ const Contact = () => {
       ease: "power2.out",
       scrollTrigger: {
         trigger: ".final",
-        start: "top 90%",
+        start: "top 10%",
       },
     }
   )
