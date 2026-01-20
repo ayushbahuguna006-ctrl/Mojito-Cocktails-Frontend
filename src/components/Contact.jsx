@@ -11,7 +11,7 @@ const Contact = () => {
             y:-20,
             scrollTrigger:{
                 trigger:'.final',
-                start:'top 10%',
+                start:'top 70%',
                 scrub:true
             }
         })
