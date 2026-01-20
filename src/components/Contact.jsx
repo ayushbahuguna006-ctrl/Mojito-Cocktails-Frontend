@@ -12,7 +12,7 @@ const Contact = () => {
             scrollTrigger:{
                 trigger:'.final',
                 start:'top 50%',
-                scrub:true
+               
             }
         })
     })
