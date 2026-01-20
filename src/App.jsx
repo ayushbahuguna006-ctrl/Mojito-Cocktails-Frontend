@@ -5,6 +5,7 @@ import './index.css'
 import Cocktails from './components/Cocktails';
 import About from './components/About';
 import Rightleaf from './components/Rightleaf';
+import Art from './components/Art';
 
 
 
@@ -20,6 +21,8 @@ function App() {
         <Rightleaf/>
         <Cocktails/>
         <About/>
+        <Art/>
+
       </main>
 
     </>
