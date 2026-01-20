@@ -22,9 +22,9 @@ const Art = () => {
       opacity:0.3,
       y:100,
       scrollTrigger:{
-        trigger:'.art',
+        trigger:'.this1',
         start:'top top',
-        end:'bottom 10%'
+        end:'bottom top'
         
       }
     })
@@ -51,7 +51,7 @@ const Art = () => {
         <div className='an1'><div><p className='text-white flex items-center'><img src="/check.png" className='h-5 mr-2' alt="" />Handpicked ingredients</p>
         <p className='text-white flex items-center mt-2'><img src="/check.png" className='h-5 mr-2 ' alt="" />Signature techniques</p>
         <p className='text-white flex items-center mt-2'><img src="/check.png" className='h-5 mr-2 ' alt="" />Bartending artistry in action</p>
-        <p className='text-white flex items-center mt-2'><img src="/check.png" className='h-5 mr-2 ' alt="" />Freshly muddled flavors</p>
+        <p className='this1 text-white flex items-center mt-2'><img src="/check.png" className='h-5 mr-2 ' alt="" />Freshly muddled flavors</p>
         </div>
         <div className='mt-2'><p className='text-white flex items-center'><img src="/check.png" className='h-5 mr-2' alt="" />Handpicked ingredients</p>
         <p className='text-white flex items-center mt-2'><img src="/check.png" className='h-5 mr-2 ' alt="" />Signature techniques</p>
