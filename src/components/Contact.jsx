@@ -20,7 +20,6 @@ const Contact = () => {
           gsap.from('.final2',{
             opacity:0,
             stagger:0.1,
-            fontFamily: "monospace",
             delay:0.1,
             scrollTrigger:{
                 trigger:'.final2',
