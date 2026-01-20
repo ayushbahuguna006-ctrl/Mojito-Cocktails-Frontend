@@ -25,8 +25,10 @@ const Cocktails = () => {
       ease: "power1.in",
       scrollTrigger: {
         trigger: ".tails",
-        start: "top 90%",
-        once:true
+        start: "top 99%",
+        end:'bottom bottom' ,
+        once:true,
+        scrub:true
         
       },
     }
@@ -48,16 +50,17 @@ const Cocktails = () => {
       ease: "power1.in",
       scrollTrigger: {
         trigger: ".touch",
-        start: "top 95%",
-        once:true
+        start: "top bottom",
+        end:'bottom bottom',
+        once:true,
       },
     }
   )
         const two=gsap.timeline({
         scrollTrigger:{
             trigger:'.touch',
-            start:'top 80%',
-            end:'bottom 20%',
+            start:'top 70%',
+            end:'bottom top',
             scrub:true
         }
 })
@@ -69,8 +72,8 @@ const Cocktails = () => {
     },
   {
     x: -90,
-    y:-200,
-    ease: 'power1.inOut'
+    y:-600,
+    duration:10
   },
     )})
   return (

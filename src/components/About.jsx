@@ -12,12 +12,11 @@ const About = () => {
     y: 40,
     opacity: 0,
     stagger: 0.08,
-    duration: 1,
-    ease: "power3.out",
-    delay:0.5,
+    duration: 0.3,
+    ease: "expo3.out",
     scrollTrigger: {
       trigger: ".sun",
-      start: "top 50%",
+      start: "top 60%",
       scrub:true
     },
   });
@@ -26,11 +25,10 @@ const About = () => {
     opacity: 0,
     stagger: 0.08,
     duration: 1,
-    ease: "power3.out",
-    delay:0.2,
+    ease: "power2.out",
     scrollTrigger: {
       trigger: ".this",
-      start: "top 99%",
+      start: "top 90%",
       
     },
   });
@@ -70,7 +68,7 @@ const About = () => {
       </div><br/>
       <div className='img3 flex flex-col justify-center items-center md:flex-row md:justify-evenly md:flex-wrap'>
         <img src="/abt1.png" className='img1 h-[50%] md:mt-9 md:h-100 md:w-100 w-[50%]' alt="" />
-        <div className='img2 md:bg-black bg-transparent border-2 border-white mt-5 rounded-2xl md:w-[55vh] md:h-[50vh] h-[30vh] text-white w-[80%]'>
+        <div className='img2 bg-transparent border-2 border-white mt-5 rounded-2xl md:w-[55vh] md:h-[50vh] h-[30vh] text-white w-[80%]'>
           <div className='flex flex-col pl-2 md:items-center md:pt-15 justify-center'><p className='pt-2.5 text-center text-yellow-200 md:text-3xl md:mb-5 font-bold text-xl'>CRAFTED TO IMPRESS</p>
              <div className='flex items-center justify-center pt-4'><img src="/left-arrow.png" className='h-4 mr-2' alt="" /><p className='text-sm font-light'>Perfectly balanced blends</p></div>
                <div className='flex items-center justify-center pt-4'><img src="/left-arrow.png" className='this h-4 mr-3' alt="" /><p className='text-sm font-light mr-3'>Garnished to Perfection</p></div>

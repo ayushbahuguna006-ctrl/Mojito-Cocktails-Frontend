@@ -6,6 +6,7 @@ import Cocktails from './components/Cocktails';
 import About from './components/About';
 import Rightleaf from './components/Rightleaf';
 import Art from './components/Art';
+import Contact from './components/Contact';
 
 
 
@@ -22,6 +23,7 @@ function App() {
         <Cocktails/>
         <About/>
         <Art/>
+        <Contact/>
 
       </main>
 
