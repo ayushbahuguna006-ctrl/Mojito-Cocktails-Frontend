@@ -28,7 +28,7 @@ const About = () => {
     ease: "power2.out",
     scrollTrigger: {
       trigger: ".this",
-      start: "top 70%",
+      start: "top top",
       
     },
   });
