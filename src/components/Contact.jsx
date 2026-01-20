@@ -12,7 +12,7 @@ const Contact = () => {
             stagger:0.2,
             scrollTrigger:{
                 trigger:'.final',
-                start:'top 50%',
+                start:'top 30%',
                
             }
         })
