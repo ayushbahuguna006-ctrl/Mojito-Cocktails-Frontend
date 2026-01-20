@@ -10,52 +10,52 @@ gsap.registerPlugin(ScrollTrigger);
 const Cocktails = () => {
   
     useGSAP(()=>{
-         gsap.fromTo(
-    ".tails1",
-    {
-      y: 30,
-      opacity: 0,
-    },
-    {
-      y: 0,
-      opacity: 1,
-      duration: 0.5,
-      delay:0.3,
-      stagger: 0.07,
-      ease: "power1.in",
-      scrollTrigger: {
-        trigger: ".tails",
-        start: "top 99%",
-        end:'bottom bottom' ,
-        once:true,
+  //        gsap.fromTo(
+  //   ".tails1",
+  //   {
+  //     y: 30,
+  //     opacity: 0,
+  //   },
+  //   {
+  //     y: 0,
+  //     opacity: 1,
+  //     duration: 0.5,
+  //     delay:0.3,
+  //     stagger: 0.07,
+  //     ease: "power1.in",
+  //     scrollTrigger: {
+  //       trigger: ".tails",
+  //       start: "top 99%",
+  //       end:'bottom bottom' ,
+  //       once:true,
       
         
-      },
-    }
-  )
+  //     },
+  //   }
+  // )
 
 
-  gsap.fromTo(
-    ".touch1",
-    {
-      y: 10,
-      opacity: 0,
-    },
-    {
-      y: 0,
-      opacity: 1,
-      duration: 0.5,
-      delay:0.3,
-      stagger: 0.05,
-      ease: "power1.in",
-      scrollTrigger: {
-        trigger: ".touch",
-        start: "top bottom",
-        end:'bottom bottom',
-        once:true,
-      },
-    }
-  )
+  // gsap.fromTo(
+  //   ".touch1",
+  //   {
+  //     y: 10,
+  //     opacity: 0,
+  //   },
+  //   {
+  //     y: 0,
+  //     opacity: 1,
+  //     duration: 0.5,
+  //     delay:0.3,
+  //     stagger: 0.05,
+  //     ease: "power1.in",
+  //     scrollTrigger: {
+  //       trigger: ".touch",
+  //       start: "top bottom",
+  //       end:'bottom bottom',
+  //       once:true,
+  //     },
+  //   }
+  // )
         const two=gsap.timeline({
         scrollTrigger:{
             trigger:'.touch',
