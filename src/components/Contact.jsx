@@ -9,8 +9,8 @@ const Contact = () => {
         gsap.from('.final',{
             opacity:0,
             y:-20,
-            stagger:0.2,
-            delay:0.3,
+            stagger:0.1,
+            delay:0.5,
             scrollTrigger:{
                 trigger:'.final1',
                 start:'top 10%',
