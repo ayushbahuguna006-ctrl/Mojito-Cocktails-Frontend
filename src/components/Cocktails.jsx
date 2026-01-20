@@ -28,7 +28,7 @@ const Cocktails = () => {
         start: "top 99%",
         end:'bottom bottom' ,
         once:true,
-        scrub:true
+      
         
       },
     }
@@ -61,7 +61,7 @@ const Cocktails = () => {
             trigger:'.touch',
             start:'top 70%',
             end:'bottom top',
-            scrub:true
+            
         }
 })
 
