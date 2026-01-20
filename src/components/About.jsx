@@ -49,7 +49,7 @@ const About = () => {
 });
   return (
     <>
-    <div className='bg-[url("/noise.png")] h-10'></div>
+    <div id='about' className='bg-[url("/noise.png")] h-10'></div>
     <div  className='bg-[url("/noise.png")] min-h-screen overflow-hidden'>
       <div className='flex  justify-center md:gap-20 items-center'>
         <div className='sun p-4'>
