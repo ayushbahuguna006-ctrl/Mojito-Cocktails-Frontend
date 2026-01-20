@@ -10,16 +10,16 @@ const Contact = () => {
             opacity:0,
             y:-20,
             stagger:0.2,
-            delay:0.3,
+            delay:0.5,
             scrollTrigger:{
-                trigger:'.final',
-                start:'top 1%',
+                trigger:'.final1',
+                start:'top 10%',
                
             }
         })
     })
   return (
-    <div className=' min-h-screen bg-[url("/noise.png")] overflow-hidden flex flex-col text-white items-center justify-center'>
+    <div className='final1 min-h-screen bg-[url("/noise.png")] overflow-hidden flex flex-col text-white items-center justify-center'>
       <div><div><p className='font-black text-4xl text-center final text-yellow-300'>Where to Find Us</p></div>
       <div><p className='bg-red-500 final rounded-xl text-center p-2 opacity-60 mt-10 text-yellow-100'>Visit our store</p></div>
       <div><p className='font-semibold final text-center text-lg'>456, Raq Blvd. #404, Los Angeles, CA 90210</p></div>
