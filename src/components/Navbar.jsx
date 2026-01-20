@@ -35,7 +35,7 @@ const Navbar = () => {
           <p className='font-bold text-white'>VELVET POUR</p>
         </div>
         <div className='flex gap-6 items-center'>
-          {navLinks.map((link)=>(<a className='list-none text-white' href={`#${link.id}`}>{link.title}</a>))}
+          {navLinks.map((link)=>(<a className='list-none text-white hover:bg-stone-500 hover:p-2 transition-all ease-in hover:rounded-4xl' href={`#${link.id}`}>{link.title}</a>))}
         </div>
 
 
