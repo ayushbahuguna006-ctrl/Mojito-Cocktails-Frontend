@@ -42,7 +42,7 @@ const About = () => {
     ease: "power3.out",
     scrollTrigger: {
       trigger: ".moon",
-      start: "top top",
+      start: "top 20%",
       scrub:true
     },
   });
