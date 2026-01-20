@@ -7,7 +7,7 @@ gsap.registerPlugin(ScrollTrigger);
 const Art = () => { 
   useGSAP(()=>{
     gsap.from('.mask',{
-      opacity:0,
+      
       rotate:20,
       duration:1,
       ease:'power3.out',
