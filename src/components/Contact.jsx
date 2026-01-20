@@ -13,7 +13,7 @@ const Contact = () => {
             delay:0.5,
             scrollTrigger:{
                 trigger:'.final2',
-                start:'top 80%',
+                start:'top 90%',
                
             }
         })
@@ -26,13 +26,13 @@ const Contact = () => {
       <div><p className='bg-red-500 final rounded-xl p-2 mt-5 text-center opacity-60 text-yellow-100'>Contact us</p></div>
       <div><p className='font-semibold final text-center text-lg'>(555) 987-6543</p></div>
       <div><p className='font-semibold final text-center text-lg'>hello@jsmcocktail.com</p></div>
-      <div><p className='bg-red-500 final text-center mt-5 rounded-xl p-2 opacity-60 text-yellow-100'>Open every day</p></div>
+      <div><p className='bg-red-500 final2 text-center mt-5 rounded-xl p-2 opacity-60 text-yellow-100'>Open every day</p></div>
       <div><p className='font-semibold final text-center text-lg'>Mon-Thu : 11:00am - 12am</p></div>
       <div><p className='font-semibold final text-center text-lg'>Fri : 11:00am - 2am</p></div>
       <div><p className='font-semibold final text-center text-lg'>Sun : 9:00am - 1 am</p></div>
       <div><p className='bg-red-500 final text-center mt-5 rounded-xl p-2 px-3 opacity-60 text-yellow-100'>Socials</p></div>
       <div>
-          <div className='flex justify-center mt-5 final2'>
+          <div className='flex justify-center mt-5 '>
             <a href=""><img src="/x.png" className='mx-5' alt="" /></a>
             <a href=""><img src="/insta.png" alt="" /></a>
             <a href=""><img src="/fb.png" className='mx-5' alt="" /></a>
