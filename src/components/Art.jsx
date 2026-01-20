@@ -2,7 +2,7 @@ import React from 'react'
 
 const Art = () => {
   return (
-    <div>
+    <div className='min-h-screen bg-[url("/noise.png")]'>
       
     </div>
   )

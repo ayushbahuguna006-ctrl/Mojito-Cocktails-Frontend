@@ -27,7 +27,7 @@ const Navbar = () => {
 
   })
   return (
-    <div className='size-full sticky top-0 bg-[url("/noise.png")]'>
+    <div className='size-full z-10 sticky top-0 bg-[url("/noise.png")]'>
      
      <nav className='flex flex-wrap justify-around'>
         <div className='flex items-center justify-center gap-1 p-2'>
