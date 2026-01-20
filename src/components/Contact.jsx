@@ -10,7 +10,7 @@ const Contact = () => {
             opacity:0,
             y:-20,
             stagger:0.2,
-            delay:0.5,
+            delay:0.3,
             scrollTrigger:{
                 trigger:'.final1',
                 start:'top 10%',
