@@ -8,12 +8,15 @@ const Art = () => {
   useGSAP(()=>{
     gsap.from('.mask',{
       
-      rotate:20,
+      rotate:30,
+      opacity:0,
       duration:1,
       ease:'power3.out',
       scrollTrigger:{
         trigger:'.art',
-        start:'top 60%',
+        start: "top bottom",
+end: "bottom top",
+
         scrub:true
       }
 
@@ -23,7 +26,9 @@ const Art = () => {
       y:150,
       scrollTrigger:{
         trigger:'.art',
-        start:'top 99%',
+        start: "top bottom",
+end: "bottom top",
+
         scrub:true
         
       }
@@ -36,7 +41,9 @@ const Art = () => {
       y:-50,
        scrollTrigger:{
         trigger:'.art',
-        start:'top 99%',
+        start: "top bottom",
+end: "bottom top",
+
         scrub:true
         
       }
