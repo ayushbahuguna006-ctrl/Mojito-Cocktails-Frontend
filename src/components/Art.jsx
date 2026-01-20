@@ -24,7 +24,7 @@ const Art = () => {
       scrollTrigger:{
         trigger:'.art',
         start:'top 40%',
-        end:'bottom 10%'
+        end:'bottom 50%'
         
       }
     })
