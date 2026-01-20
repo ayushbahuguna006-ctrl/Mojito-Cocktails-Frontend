@@ -76,7 +76,7 @@ two.to('.drink2',{
     
   return (
     <>
-      <section className='heromain overflow-y-hidden overflow-x-hidden relative bg-[url("/noise.png")]  size-full min-h-screen'>
+      <section id='hero' className='heromain overflow-y-hidden overflow-x-hidden relative bg-[url("/noise.png")]  size-full min-h-screen'>
                 <h1 className='hero text-center p-7 font-black text-white text-6xl'>MOJITO</h1>
                 <img src="/hero-left-leaf.png" className='leftleaf absolute bottom-0 left-0 h-[30vh]' alt="" />
                  <div>

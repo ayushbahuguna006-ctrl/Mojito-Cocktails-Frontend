@@ -78,7 +78,7 @@ const Cocktails = () => {
     )})
   return (
     <>
-      <div className='tails  min-h-screen bg-[url("/noise.png")] flex flex-col md:flex-row  justify-evenly items-center' >
+      <div id='cocktails' className='tails  min-h-screen bg-[url("/noise.png")] flex flex-col md:flex-row  justify-evenly items-center' >
          <div className='p-4'  >
               <p className='text-white'>Most Popular Cocktails</p><br/>
               {cocktailLists.map(({name,detail,country,price})=>(

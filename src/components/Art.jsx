@@ -43,7 +43,7 @@ const Art = () => {
     })
   })
   return (
-    <div className='min-h-screen bg-[url("/noise.png")] overflow-hidden flex items-center justify-evenly pt-20 flex-wrap'>
+    <div id='work' className='min-h-screen bg-[url("/noise.png")] overflow-hidden flex items-center justify-evenly pt-20 flex-wrap'>
       
       <div>
            <p className='art text-yellow-200 text-center mt-5 font-bold text-8xl '>THE ART <img src="/mask-img.png" className='mask' alt="mask-img" /></p>
