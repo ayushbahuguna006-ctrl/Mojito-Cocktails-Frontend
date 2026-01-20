@@ -20,18 +20,18 @@ const About = () => {
       scrub:true
     },
   });
-   gsap.from(".img3 img", {
-    y: 40,
-    opacity: 0,
-    stagger: 0.08,
-    duration: 1,
-    ease: "power2.out",
-    scrollTrigger: {
-      trigger: ".this",
-      start: "top 50%",
+  //  gsap.from(".img3 img", {
+  //   y: 40,
+  //   opacity: 0,
+  //   stagger: 0.08,
+  //   duration: 1,
+  //   ease: "power2.out",
+  //   scrollTrigger: {
+  //     trigger: ".this",
+  //     start: "top 50%",
       
-    },
-  });
+  //   },
+  // });
 
 
   gsap.from(".moon > *", {
