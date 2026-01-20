@@ -12,8 +12,8 @@ const Contact = () => {
             stagger:0.1,
             delay:1,
             scrollTrigger:{
-                trigger:'.final1',
-                start:'top 5%',
+                trigger:'.final2',
+                start:'top 50%',
                
             }
         })
@@ -32,7 +32,7 @@ const Contact = () => {
       <div><p className='font-semibold final text-center text-lg'>Sun : 9:00am - 1 am</p></div>
       <div><p className='bg-red-500 final text-center mt-5 rounded-xl p-2 px-3 opacity-60 text-yellow-100'>Socials</p></div>
       <div>
-          <div className='flex justify-center mt-5 final'>
+          <div className='flex justify-center mt-5 final2'>
             <a href=""><img src="/x.png" className='mx-5' alt="" /></a>
             <a href=""><img src="/insta.png" alt="" /></a>
             <a href=""><img src="/fb.png" className='mx-5' alt="" /></a>
