@@ -49,7 +49,7 @@ const About = () => {
 });
   return (
     <>
-    <div id='about'></div><br/><br/><br/>
+    <div className='bg-[url("/noise.png")]' id='about'></div><br/><br/><br/>
     <div  className='bg-[url("/noise.png")] min-h-screen overflow-hidden'>
       <div className='flex  justify-center md:gap-20 items-center'>
         <div className='sun p-4'>
