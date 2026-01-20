@@ -7,29 +7,24 @@ gsap.registerPlugin(ScrollTrigger);
 const Art = () => { 
   useGSAP(()=>{
     gsap.from('.mask',{
-      
-      rotate:30,
+      y:-100,
       opacity:0,
       duration:1,
       ease:'power3.out',
       scrollTrigger:{
         trigger:'.art',
-        start: "top bottom",
-end: "bottom top",
-
-        scrub:true
+        start:'top 60%',
+        end:'bottom bottom'
       }
 
     })
     gsap.to('.art',{
       opacity:0.3,
-      y:150,
+      y:100,
       scrollTrigger:{
         trigger:'.art',
-        start: "top bottom",
-end: "bottom top",
-
-        scrub:true
+        start:'top 30%',
+        end:'bottom bottom'
         
       }
     })
@@ -38,12 +33,10 @@ end: "bottom top",
       y:300,
      
     },{
-      y:-50,
+      y:-100,
        scrollTrigger:{
         trigger:'.art',
-        start: "top bottom",
-end: "bottom top",
-
+        start:'top 99%',
         scrub:true
         
       }
