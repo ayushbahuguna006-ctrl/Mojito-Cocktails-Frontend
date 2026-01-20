@@ -23,7 +23,7 @@ const Art = () => {
       y:100,
       scrollTrigger:{
         trigger:'.this1',
-        start:'top top',
+        start:'top 20%',
         end:'bottom top'
         
       }
