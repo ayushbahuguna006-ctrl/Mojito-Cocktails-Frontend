@@ -5,17 +5,23 @@ import { ScrollTrigger } from "gsap/ScrollTrigger";
 gsap.registerPlugin(ScrollTrigger);
 
 const Contact = () => {
-    useGSAP(()=>{
-        gsap.from('.final',{
-            opacity:0,
-            y:-20,
-            scrollTrigger:{
-                trigger:'.final',
-                start:'top 50%',
-               
-            }
-        })
-    })
+    useGSAP(() => {
+  gsap.fromTo(
+    ".final",
+    { opacity: 0, y: 30 },
+    {
+      opacity: 1,
+      y: 0,
+      duration: 0.8,
+      ease: "power2.out",
+      scrollTrigger: {
+        trigger: ".final",
+        start: "top 90%",
+      },
+    }
+  )
+})
+
   return (
     <div className=' min-h-screen bg-[url("/noise.png")] overflow-hidden flex flex-col text-white items-center justify-center'>
       <div className='final'><div><p className='font-black text-4xl text-center text-yellow-300'>Where to Find Us</p></div>
