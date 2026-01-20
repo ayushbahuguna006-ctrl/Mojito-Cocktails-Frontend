@@ -39,7 +39,7 @@ const Contact = () => {
       <div><p className='bg-red-500 final rounded-xl p-2 mt-5 text-center opacity-60 text-yellow-100'>Contact us</p></div>
       <div className='mt-2'><p className='font-semibold final text-center text-lg'>(555) 987-6543</p></div>
       <div><p className='font-semibold final text-center text-lg'>hello@jsmcocktail.com</p></div>
-      <div><p className='bg-red-500 final2 text-center mt-5 rounded-xl p-2 opacity-60 text-yellow-100  text-xl '>Open every day</p></div>
+      <div><p className='bg-red-500 final2 text-center mt-5 rounded-xl p-2 opacity-60 text-yellow-100   '>Open every day</p></div>
       <div className='mt-2'><p className='font-semibold final text-center text-lg'>Mon-Thu : 11:00am - 12am</p></div>
       <div><p className='font-semibold final text-center text-lg'>Fri : 11:00am - 2am</p></div>
       <div><p className='font-semibold final text-center text-lg'>Sun : 9:00am - 1 am</p></div>
