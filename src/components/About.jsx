@@ -53,7 +53,7 @@ const About = () => {
     <div  className='bg-[url("/noise.png")] min-h-screen overflow-hidden'>
       <div className='flex  justify-center md:gap-20 items-center'>
         <div className='sun p-4'>
-          <a href='#cocktails' className='text-black rounded-4xl px-3 text-sm p-2 bg-white cursor-pointer hover:text-red-500 '>Best Cocktails</a>
+          <a href='#cocktails' className='text-black rounded-4xl px-3 text-sm p-2 bg-white border-2 border-blue-500 cursor-pointer hover:font-bold transition-all ease-in duration-100 '>Best Cocktails</a>
              <div className='text-white  text-4xl font-black mt-3'><p>Where every Detail </p>
 
           <p>Matter-From Muddle</p>
