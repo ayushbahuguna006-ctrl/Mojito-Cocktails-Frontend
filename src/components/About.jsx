@@ -70,12 +70,12 @@ const About = () => {
       </div><br/>
       <div className='img3 flex flex-col justify-center items-center md:flex-row md:justify-evenly md:flex-wrap'>
         <img src="/abt1.png" className='img1 h-[50%] md:mt-9 md:h-100 md:w-100 w-[50%]' alt="" />
-        <div className='img2 bg-black mt-5 rounded-2xl md:w-[55vh] md:h-[50vh] h-[30vh] text-white w-[80%]'>
-          <div className='flex flex-col pl-2 md:items-center md:pt-15 justify-center'><p className='pt-4 text-center text-yellow-200 md:text-3xl md:mb-5 font-bold text-xl'>CRAFTED TO IMPRESS</p>
-             <div className='flex items-center justify-center pt-4'><img src="/left-arrow.png" className='h-4' alt="" /><p className='text-sm font-light'>Perfectly balanced blends</p></div>
-               <div className='flex items-center justify-center pt-4'><img src="/left-arrow.png" className='this h-4' alt="" /><p className='text-sm font-light'>Garnished to Perfection</p></div>
-                 <div className='flex items-center justify-center pt-4'><img src="/left-arrow.png" className='h-4' alt="" /><p className='text-sm font-light'>Ice cold Everytime</p></div>
-                   <div className='flex items-center justify-center pt-4'><img src="/left-arrow.png" className='h-4' alt="" /><p className='text-sm font-light'>Expertly Shaken and Stirred</p></div>
+        <div className='img2 md:bg-black bg-transparent border-2 border-white mt-5 rounded-2xl md:w-[55vh] md:h-[50vh] h-[30vh] text-white w-[80%]'>
+          <div className='flex flex-col pl-2 md:items-center md:pt-15 justify-center'><p className='pt-2.5 text-center text-yellow-200 md:text-3xl md:mb-5 font-bold text-xl'>CRAFTED TO IMPRESS</p>
+             <div className='flex items-center justify-center pt-4'><img src="/left-arrow.png" className='h-4 mr-2' alt="" /><p className='text-sm font-light'>Perfectly balanced blends</p></div>
+               <div className='flex items-center justify-center pt-4'><img src="/left-arrow.png" className='this h-4 mr-3' alt="" /><p className='text-sm font-light mr-3'>Garnished to Perfection</p></div>
+                 <div className='flex items-center justify-center pt-4'><img src="/left-arrow.png" className='h-4 mr-3' alt="" /><p className='text-sm font-light mr-11'>Ice cold Everytime</p></div>
+                   <div className='flex items-center justify-center pt-4'><img src="/left-arrow.png" className='h-4 ml-3 mr-3' alt="" /><p className='text-sm font-light'>Expertly Shaken and Stirred</p></div>
           
           </div>
         </div>
